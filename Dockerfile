@@ -30,4 +30,4 @@ COPY --chown=node:node . .
 EXPOSE $NODE_PORT
 
 # команда запуска приложения
-CMD [ "node", "index.js" ]
+CMD [ "node", "app.js" ]

@@ -2,7 +2,7 @@
   "name": "simple-game",
   "type": "module",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "array-flatten": "^1.1.1",
     "body-parser": "^1.20.2",
@@ -26,8 +26,8 @@
     "vary": "^1.1.2"
   },
   "scripts": {
-    "debug": "node --watch --inspect=0.0.0.0:9229 index.js",
-    "start": "node index.js"
+    "debug": "node --watch --inspect=0.0.0.0:9229 app.js",
+    "start": "node app.js"
   },
   "author": "",
   "license": "MIT",
