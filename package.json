@@ -1,0 +1,35 @@
+{
+  "name": "simple-game",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "array-flatten": "^1.1.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "content-disposition": "^0.5.4",
+    "content-type": "^1.0.5",
+    "encodeurl": "^1.0.2",
+    "es-define-property": "^1.0.0",
+    "express": "^4.19.2",
+    "finalhandler": "^1.2.0",
+    "function-bind": "^1.1.2",
+    "get-intrinsic": "^1.2.4",
+    "gopd": "^1.0.1",
+    "has-property-descriptors": "^1.0.2",
+    "hasown": "^2.0.2",
+    "iconv-lite": "^0.4.24",
+    "inherits": "^2.0.4",
+    "merge-descriptors": "^1.0.1",
+    "qs": "^6.11.0",
+    "serve-static": "^1.15.0",
+    "vary": "^1.1.2"
+  },
+  "scripts": {
+    "debug": "node --watch --inspect=0.0.0.0:9229 index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
